@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Information Form</h1>
+      <hr />
+      <form action="/index.html">
+        <div class="name">
+          <label for="1">Enter your full Name</label>
+          <br />
+          <input id="1" type="text" placeholder="firstname" required />
+          <input id="1" type="text" placeholder="middlename" required />
+          <input id="1" type="text" placeholder="lastname" required />
+        </div>
+        <hr />
+        <div class="birth">
+          <label for="2">Enter your birth date</label>
+          <input id="2" type="date" />
+        </div>
+        <hr />
+        <div class="address">
+          <label for="3">Current Address</label>
+          <input id="3" type="text" placeholder="Address" required />
+        </div>
+        <hr />
+        <div class="email">
+          <label for="4">Enter your mail</label>
+          <input id="4" type="email" placeholder="email" />
+        </div>
+        <div class="phone">
+          <label for="5">Enter your Phone number</label>
+          <input id="5" type="tel" placeholder="Number" />
+        </div>
+        <hr />
+        <div class="post">
+          <label for="6">Education</label>
+          <select name="post" id="6">
+            <option value="">Please select</option>
+            <option value="1">SSC</option>
+            <option value="2">HSC</option>
+            <option value="3">Graduation/Under Graduation</option>
+            <option value="4">Diploma/Course</option>
+          </select>
+        </div>
+        <div class="sahas">
+          <label for="7">Field</label>
+          <select required id="7">
+            <option value="">Please Select</option>
+            <option value="1">Arts</option>
+            <option value="2">Comerce</option>
+            <option value="3">Science</option>
+            <option value="4">other</option>
+          </select>
+        </div>
+        <hr />
+        <div class="Resume">
+          <label for="11">Current/Last Years Marksheet</label>
+          <br />
+          <input id="11" type="file" placeholder="Upload Resume" required />
+        </div>
+        <div class="sujat">
+          <label for="12">College Name</label>
+          <br />
+          <input id="12" type="text" placeholder="College Name" required />
+        </div>
+        <div class="pooja">
+          <label for="13">University Name</label>
+          <br />
+          <input id="13" type="text" placeholder="University Name" required />
+        </div>
+        <hr />
+        <button type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
